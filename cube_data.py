@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import json
 
-file_path = r'D:\Project\python\API_Project\maplestory_API\json\maplestory_api_cube_data.json'
+file_path = r'D:\Project\python\jsonfilelist\maplestory_api_cube_data.json'
 
 with open(file_path, 'w', encoding='utf-8') as json_file:
     json_file.write('')
@@ -39,14 +39,10 @@ for i in range(days_diff + 1):
         data_cache[date_num] = data  # 가져온 데이터를 캐시
     
     count_value = data.get('count')
-    
+    print(count_value.get('cube_type'))
     # count가 0이 아닐 때만 데이터 저장
-    if count_value != 0:
-        if 'cube_history' in data:
-            for history in data['cube_history']:
-                if history['cube_type'] == "블랙 큐브":
-                    print(data)
-                    all_data.append(data)
+    if count_value != 0: 
+        all_data.append(data)
     set_date += 1  # 날짜 증가
 
 # JSON 파일에 전체 데이터를 저장

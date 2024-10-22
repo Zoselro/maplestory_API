@@ -2,7 +2,7 @@ import requests
 from datetime import datetime, timedelta
 import json
 
-file_path = r'D:\Project\python\API_Project\maplestory_API\json\maplestory_api_starforce_data.json'
+file_path = r'D:\Project\python\jsonfilelist\maplestory_api_starforce_data.json'
 with open(file_path, 'w', encoding='utf-8') as json_file:
     json_file.write('')
 
