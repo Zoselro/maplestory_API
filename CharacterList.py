@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime, timedelta
 import json
-file_path = r'D:\Project\python\json\response_data_character_list.json'
+file_path = r'D:\Project\python\API_Project\maplestory_API\json\maplestory_api_characterList.json'
 with open(file_path, 'w', encoding='utf-8') as json_file:
     json_file.write('')
 
