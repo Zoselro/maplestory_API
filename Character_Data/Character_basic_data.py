@@ -16,10 +16,10 @@ def get_character_data(characterName, api_key, date_value):
     ocid = Character_ocid.character_ocid(characterName,headers)
 
     #내 캐릭터의 정보
-    urlString = "https://open.api.nexon.com/maplestory/v1/character/basic?ocid=" + ocid + "&date=" + date_value
+    urlString = f"https://open.api.nexon.com/maplestory/v1/character/basic?ocid={ocid}&date={date_value}"
     response = requests.get(urlString, headers = headers)
     
     with open(file_path, 'r+', encoding='utf-8') as json_file:
         json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
-    
+    print(response.json())
     return response.json()

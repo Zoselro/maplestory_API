@@ -10,11 +10,11 @@ def get_character_dojang(world_name, difficulty, job, ocid, page_num, api_key, d
     
     headers = headers_data.headers_data(api_key)
     
-    urlString = "https://open.api.nexon.com/maplestory/v1/ranking/dojang?date=" + date_value + "&world_name=" + world_name + "&difficulty=" + difficulty + "&class=" + job + "&ocid=" + ocid + "&page=" + page_num
+    urlString = f"https://open.api.nexon.com/maplestory/v1/ranking/dojang?date={date_value}&world_name={world_name}&difficulty={difficulty}&class={job}&ocid={ocid}&page={page_num}"
     
     response = requests.get(urlString, headers = headers)
     
     with open(file_path, 'r+', encoding='utf-8') as json_file:
         json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
-    
+    print(response.json())
     return response.json()
