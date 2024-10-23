@@ -1,8 +1,20 @@
-import Character_basic_data
+import requests
+import json
+import headers_data
 
-api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"
-character_name = "리마"
-
-character_data = Character_basic_data.get_character_data(character_name, api_key)
-character_nickname = character_data.get('character_name')
-print(character_nickname)
+#캐릭터의 무릉도장 정보 알아내기(마지막으로 쳤던 것)
+def get_character_dojang(world_name, difficulty, job, ocid, page_num, api_key, date_value):
+    file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_dojang_data.json'
+    with open(file_path, 'w', encoding='utf-8') as json_file:
+        json_file.write('')
+    
+    headers = headers_data.headers_data(api_key)
+    
+    urlString = "https://open.api.nexon.com/maplestory/v1/ranking/dojang?date=" + date_value + "&world_name=" + world_name + "&difficulty=" + difficulty + "&class=" + job + "&ocid=" + ocid + "&page=" + page_num
+    
+    response = requests.get(urlString, headers = headers)
+    
+    with open(file_path, 'r+', encoding='utf-8') as json_file:
+        json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
+    
+    return response.json()
