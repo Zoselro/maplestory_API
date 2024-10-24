@@ -4,9 +4,9 @@ import Character_ocid
 import headers_data
 
 #캐릭터 기본정보 알아내기
+file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_data.json'
 def get_character_data(characterName, api_key, date_value):
     #json 파일 초기화
-    file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_data.json'
     with open(file_path, 'w', encoding='utf-8') as json_file:
         json_file.write('')
     
