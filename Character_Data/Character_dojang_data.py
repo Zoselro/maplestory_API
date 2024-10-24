@@ -16,10 +16,9 @@ def get_character_dojang(world_name, difficulty, job, ocid, page_num, api_key, d
     
     for data_cache in data_value:
         if(data_cache['date']):
+            #print(data_cache['date'])
             data_all.append(data_cache)
-            print(data_cache['dojang_floor'])
             with open(file_path, 'a', encoding='utf-8') as json_file:
                 json.dump(data_all, json_file, ensure_ascii=False, indent=4)
                 json_file.write('\n')
-            
-    return data_all
+            return data_all

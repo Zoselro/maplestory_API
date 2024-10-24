@@ -24,7 +24,9 @@ ocid = Character_ocid.character_ocid(character_name, headers_data.headers_data(a
 start_date = datetime(2023, 12, 22)
 end_date = datetime.now()
 current_date = start_date
-dojang_data = []
+
+max_dojang_floor = 0 #가장 높은 층수
+
 #무릉도장 json 파일 초기화
 with open(Character_dojang_data.file_path, 'w', encoding='utf-8') as json_file:
     json_file.write('')
@@ -34,7 +36,12 @@ while current_date <= end_date:
     
      # 각 날짜에 대해 무릉 데이터를 조회 및 저장
     dojang_data = Character_dojang_data.get_character_dojang(world_name, difficulty, job, ocid, page, api_key, date_value)
-    
     current_date += timedelta(days=1)
-
-print(dojang_data)
+    
+    if dojang_data:
+        for entry in dojang_data:
+            print(f"날짜: {entry['date']}, 무릉 층수: {entry['dojang_floor']}")
+            if entry['dojang_floor'] > max_dojang_floor:
+                max_dojang_floor = entry['dojang_floor']
+                
+print(f"가장 높은 무릉 층수: {max_dojang_floor}")

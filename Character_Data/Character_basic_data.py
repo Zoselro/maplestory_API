@@ -21,5 +21,4 @@ def get_character_data(characterName, api_key, date_value):
     
     with open(file_path, 'r+', encoding='utf-8') as json_file:
         json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
-    print(response.json())
     return response.json()
