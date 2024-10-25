@@ -4,6 +4,7 @@ import aiohttp
 import asyncio
 import json_file_clear
 from datetime import datetime, timedelta
+import sys
 
 # API 캐시를 위한 딕셔너리
 cache = {}
@@ -77,7 +78,7 @@ async def get_character_dojang_async(session, world_name, difficulty, job, ocid,
             elif response.status == 403:
                 print("dojang is Forbidden: Access is denied.")
             elif response.status == 500:
-                print("dojang is Internal Server Error: Something went wrong on the server.")  
+                print("dojang is Internal Server Error: Something went wrong on the server.")
             else:
                 # 다른 에러 처리
                 print(f"Error {response.status}: {await response.text()}")

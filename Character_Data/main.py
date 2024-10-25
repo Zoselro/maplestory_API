@@ -8,8 +8,8 @@ import Union_Character_List
 from datetime import datetime, timedelta #파라미터로 날짜를 받기위함
 
 api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"
-character_name = "팡부밥"
-world_name = "리부트"
+character_name = "Klaw"
+world_name = "리부트1"
 difficulty = "1" #통달
 job = "모험가-전체 전직" #직업
 page = "1"
