@@ -7,7 +7,6 @@ import asyncio
 import sys
 from flask import Flask, request, jsonify
 
-
 api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"
 character_name = "Pira" #대 소문자를 구분지어야 된다.
 world_name = "리부트"
