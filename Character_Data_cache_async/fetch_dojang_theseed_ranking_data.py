@@ -15,7 +15,7 @@ dojang_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_charac
 # 더시드 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_theseed_async(session, world_name, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
     #남아있던 json 파일 비우기
-    
+
     json_file_clear.initialize_json_file(theseed_file_path)
     cache_key = (world_name, ocid, date_value)
     if cache_key in cache:
