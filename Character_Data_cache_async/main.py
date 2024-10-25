@@ -8,12 +8,12 @@ import Union_Character_List
 from datetime import datetime, timedelta #파라미터로 날짜를 받기위함
 
 api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"
-character_name = "팡부밥"
+character_name = "향설화"
 world_name = "리부트"
 difficulty = "1" #통달
-job = "모험가-전체 전직" #직업
+job = "팬텀-전체 전직" #직업
 page = "1"
-date_value = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+date_value = datetime(2023, 12, 22).strftime('%Y-%m-%d')  #2023년 12월 22일날 캐릭터 정보 / 무릉도장 랭킹 조회 #datetime.now().strftime('%Y-%m-%d')
 
 #캐릭터 정보 조회
 character_data = Character_basic_data.get_character_data(character_name, api_key, date_value)

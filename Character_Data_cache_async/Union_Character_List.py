@@ -13,4 +13,8 @@ def Union_Character_list(api_key, ocid, date_value):
         json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
 
     data = response.json()
+
+    print("응답 데이터를 'response_data.json' 파일로 저장했습니다.")
+    print(data)
+    
     return data

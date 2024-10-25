@@ -3,8 +3,9 @@ import json
 import headers_data
 
 file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_theseed_data.json'    
+
 def get_character_theseed(world_name, ocid, page_num, api_key, date_value):
-    
+        
     headers = headers_data.headers_data(api_key)
     urlString = f"https://open.api.nexon.com/maplestory/v1/ranking/theseed?date={date_value}&world_name={world_name}&ocid={ocid}&page={page_num}"
     response = requests.get(urlString, headers = headers)
