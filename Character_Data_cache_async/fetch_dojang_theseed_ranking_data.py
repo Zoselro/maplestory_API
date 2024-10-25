@@ -9,12 +9,13 @@ from datetime import datetime, timedelta
 cache = {}
 
 # JSON 파일 경로
-theseed_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_theseed2_data.json'
-dojang_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_dojang2_data.json'
+theseed_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_theseed_data.json'
+dojang_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_character_dojang_data.json'
 # 더시드 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_theseed_async(session, world_name, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
+    #남아있던 json 파일 비우기
+    
     json_file_clear.initialize_json_file(theseed_file_path)
-    json_file_clear.initialize_json_file(dojang_file_path)
     cache_key = (world_name, ocid, date_value)
     if cache_key in cache:
         return cache[cache_key]
@@ -50,6 +51,7 @@ async def get_character_theseed_async(session, world_name, ocid, page_num, api_k
 
 # 무릉도장 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_dojang_async(session, world_name, difficulty, job, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
+    #남아있던 json 파일 비우기
     json_file_clear.initialize_json_file(dojang_file_path)
     cache_key = (world_name, ocid, difficulty, job, date_value)
     if cache_key in cache:
