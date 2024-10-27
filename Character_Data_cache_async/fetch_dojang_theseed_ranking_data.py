@@ -115,11 +115,6 @@ async def fetch_all_data(world_name, ocid, page_num, api_key, start_date, end_da
                         if entry_dojang['dojang_floor'] > max_dojang_floor:
                             data_all_dojang.append(entry_dojang)
                             max_dojang_floor = entry_dojang['dojang_floor']
-                    
-    # 데이터 저장
-    with open(dojang_file_path, 'a', encoding='utf-8') as json_file:
-        json.dump(list(data_all_dojang), json_file, ensure_ascii=False, indent=4)
-        json_file.write('\n')
 
         # 더시드 데이터 처리
         for theseed_data in theseed_results:
@@ -130,10 +125,9 @@ async def fetch_all_data(world_name, ocid, page_num, api_key, start_date, end_da
                         data_all_theseed.append(entry_theseed)
                         if entry_theseed['theseed_floor'] > max_theseed_floor:
                             max_theseed_floor = entry_theseed['theseed_floor']
-                    
-    # 데이터 저장
-    with open(theseed_file_path, 'a', encoding='utf-8') as json_file:
-        json.dump(list(data_all_theseed), json_file, ensure_ascii=False, indent=4)
-        json_file.write('\n')
+            
+    # 데이터 이어쓰기
+    Character_utility.file_mode(dojang_file_path, data_all_dojang, 'a')
+    Character_utility.file_mode(theseed_file_path, data_all_theseed, 'a')
                             
     return max_dojang_floor, max_theseed_floor

@@ -11,22 +11,8 @@ def character_ocid(character_name,headers):
     Character_utility.initialize_json_file(file_path)
     urlString = "https://open.api.nexon.com/maplestory/v1/id?character_name=" + character_name
     response = requests.get(urlString, headers = headers, timeout=30)
-    if response.status_code == 200:
-        ocid = response.json()['ocid']
-    elif response.status_code == 400:
-        print("Bad Request")
-        return None
-    elif response.status_code == 403:
-        print("Forbidden")
-        return None
-    elif response.status_code == 429:
-        print("too many Requests")
-        return None
-    elif response.status_code == 500:
-        print("Internal Server Error")
-        return None
-
-    with open(file_path, 'r+', encoding='utf-8') as json_file:
-        json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
+    ocid = Character_utility.response_ocid(response)
+        
+    Character_utility.file_mode(file_path, response.json(), 'r+')
     
     return ocid

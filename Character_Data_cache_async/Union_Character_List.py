@@ -14,12 +14,8 @@ def Union_Character_list(api_key, ocid, date_value):
     #urlString = f"https://open.api.nexon.com/maplestory/v1/user/union-artifact?ocid={ocid}&date={date_value}" #유니온 아티팩트 정보 조회
     urlString = f"https://open.api.nexon.com/maplestory/v1/ranking/union?ocid={ocid}&date={date_value}" #유니온 랭킹 정보 조회 (본캐 조회)
     response = requests.get(urlString, headers = headers, timeout=30)
-    
-    print("response.status_code : ", response.status_code)
 
-    with open(file_path, 'r+', encoding='utf-8') as json_file:
-        json.dump(response.json(), json_file, ensure_ascii=False, indent=4)
-
+    Character_utility.file_mode(file_path, response.json(), 'r+')
     data = response.json()
     
     return data
