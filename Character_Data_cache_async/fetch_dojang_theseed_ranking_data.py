@@ -1,8 +1,7 @@
-import headers_data
 import json
 import aiohttp
 import asyncio
-import json_file_clear
+import API_Project.maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 from datetime import datetime, timedelta
 import sys
 
@@ -16,13 +15,13 @@ dojang_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_charac
 async def get_character_theseed_async(session, world_name, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
     #남아있던 json 파일 비우기
 
-    json_file_clear.initialize_json_file(theseed_file_path)
+    Character_utility.initialize_json_file(theseed_file_path)
     cache_key = (world_name, ocid, date_value)
     if cache_key in cache:
         return cache[cache_key]
     
     urlString = f"https://open.api.nexon.com/maplestory/v1/ranking/theseed?date={date_value}&world_name={world_name}&ocid={ocid}&page={page_num}"
-    headers = headers_data.headers_data(api_key)
+    headers = Character_utility.headers_data(api_key)
     
     for attempt in range(retries):
         async with session.get(urlString, headers=headers) as response:
@@ -53,13 +52,13 @@ async def get_character_theseed_async(session, world_name, ocid, page_num, api_k
 # 무릉도장 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_dojang_async(session, world_name, difficulty, job, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
     #남아있던 json 파일 비우기
-    json_file_clear.initialize_json_file(dojang_file_path)
+    Character_utility.initialize_json_file(dojang_file_path)
     cache_key = (world_name, ocid, difficulty, job, date_value)
     if cache_key in cache:
         return cache[cache_key]
     
     urlString = f"https://open.api.nexon.com/maplestory/v1/ranking/dojang?date={date_value}&world_name={world_name}&difficulty={difficulty}&class={job}&ocid={ocid}&page={page_num}"
-    headers = headers_data.headers_data(api_key)
+    headers = Character_utility.headers_data(api_key)
     
     for attempt in range(retries):
         async with session.get(urlString, headers=headers) as response:    

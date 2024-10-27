@@ -1,8 +1,8 @@
 import Character_basic_data
 import Character_ocid
 import fetch_dojang_theseed_ranking_data
-import headers_data
 from datetime import datetime, timedelta
+import API_Project.maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 import asyncio
 import sys
 from flask import Flask, request, jsonify
@@ -20,7 +20,7 @@ end_date = datetime.now() - timedelta(days=1)
 # 캐릭터 기본 정보 조회(현재 기준)
 character_data = Character_basic_data.get_character_data(character_name, api_key, end_date.strftime('%Y-%m-%d'))
 character_nickname = character_data.get('character_name')
-ocid = Character_ocid.character_ocid(character_nickname, headers_data.headers_data(api_key))
+ocid = Character_ocid.character_ocid(character_nickname, Character_utility.headers_data(api_key))
 Union_Character_List.Union_Character_list(api_key, ocid, end_date.strftime('%Y-%m-%d'))
 
 if ocid is None:
