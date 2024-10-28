@@ -7,6 +7,8 @@ import maplestory_API.Character_Data_cache_async.Main_Character_Serach as Main_C
 import maplestory_API.Character_Data_cache_async.Character_Stat as Character_Stat
 import maplestory_API.Character_Data_cache_async.Character_list_data as Character_list_data
 from datetime import datetime, timedelta
+import maplestory_API.enforce_Data.cube_data as cube_data
+import sys
 
 api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"   
 character_name = "팬슈" #대 소문자를 구분지어야 된다.
@@ -17,14 +19,18 @@ page = "1"
 start_date = datetime(2023, 12, 22)
 end_date = datetime.now() - timedelta(days=1)
 
-# 캐릭터 기본 정보 조회(현재 기준)
-character_data = Character_basic_data.get_character_data(character_name, api_key, end_date.strftime('%Y-%m-%d'))
+character_data = Character_basic_data.get_character_data(character_name, api_key, end_date.strftime('%Y-%m-%d')) # 캐릭터 기본 정보 조회
 character_nickname = character_data.get('character_name') #json에서 character_name 만 추출
 ocid = Character_ocid.character_ocid(character_nickname, Character_utility.headers_data(api_key))
 main_Character_nickname = Main_Character_Serach.Union_Character_list(api_key, ocid, end_date.strftime('%Y-%m-%d'))
 character_stat = Character_Stat.get_character_stat(character_name, api_key, end_date.strftime('%Y-%m-%d'))
 character_list = Character_list_data.get_character_list(api_key)
 
+cube_all_data, cnt_red, cnt_black, cnt_editional, cnt_white_editional = cube_data.get_cube_list(api_key,
+                                                                                                start_date=datetime(2022,11,25).strftime('%Y-%m-%d'),
+                                                                                                end_date=end_date.strftime('%Y-%m-%d'))
+
+print(cnt_red, " ", cnt_black, " ", cnt_editional, " ", cnt_white_editional)
 
 if ocid is None:
     print("ocid is None")

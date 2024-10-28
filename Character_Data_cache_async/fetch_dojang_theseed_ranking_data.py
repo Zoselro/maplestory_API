@@ -2,6 +2,7 @@ import aiohttp
 import asyncio
 import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 from datetime import datetime, timedelta
+import sys
 
 # API 캐시를 위한 딕셔너리
 cache = {}
