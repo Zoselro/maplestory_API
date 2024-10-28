@@ -13,8 +13,7 @@ def headers_data(api_key):
 
 def file_mode(file_path, add_file, mode):
     with open(file_path, mode, encoding='utf-8') as json_file:
-        json.dump(list(add_file), json_file, ensure_ascii=False, indent=4)
-        json_file.write('\n')
+        json.dump(add_file, json_file, ensure_ascii=False, indent=4)
         
 def response_ocid(response):
     if response.status_code == 200:
