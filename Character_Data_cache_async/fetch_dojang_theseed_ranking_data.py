@@ -1,6 +1,7 @@
+import json
 import aiohttp
 import asyncio
-import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
+import API_Project.maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 from datetime import datetime, timedelta
 import sys
 
@@ -13,7 +14,8 @@ dojang_file_path = r'D:\Project\python\Character_Data_json\maplestory_api_charac
 # 더시드 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_theseed_async(session, world_name, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
     #남아있던 json 파일 비우기
-    #Character_utility.initialize_json_file(theseed_file_path)
+
+    Character_utility.initialize_json_file(theseed_file_path)
     cache_key = (world_name, ocid, date_value)
     if cache_key in cache:
         return cache[cache_key]
@@ -50,7 +52,7 @@ async def get_character_theseed_async(session, world_name, ocid, page_num, api_k
 # 무릉도장 데이터를 비동기 방식으로 가져오는 함수
 async def get_character_dojang_async(session, world_name, difficulty, job, ocid, page_num, api_key, date_value, retries=5, backoff_factor=1):
     #남아있던 json 파일 비우기
-    #Character_utility.initialize_json_file(dojang_file_path)
+    Character_utility.initialize_json_file(dojang_file_path)
     cache_key = (world_name, ocid, difficulty, job, date_value)
     if cache_key in cache:
         return cache[cache_key]
@@ -125,8 +127,7 @@ async def fetch_all_data(world_name, ocid, page_num, api_key, start_date, end_da
                             max_theseed_floor = entry_theseed['theseed_floor']
             
     # 데이터 이어쓰기
-    Character_utility.file_mode(dojang_file_path, data_all_dojang, 'w+')
-    Character_utility.file_mode(theseed_file_path, data_all_theseed, 'w+')
+    Character_utility.file_mode(dojang_file_path, data_all_dojang, 'a')
+    Character_utility.file_mode(theseed_file_path, data_all_theseed, 'a')
                             
     return max_dojang_floor, max_theseed_floor
-
