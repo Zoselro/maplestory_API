@@ -1,9 +1,11 @@
+import sys
+sys.path.append("D:/Project/python/API_Project")
+from datetime import datetime, timedelta
+
 import json
 import aiohttp
 import asyncio
-import API_Project.maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
-from datetime import datetime, timedelta
-import sys
+import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 
 # API 캐시를 위한 딕셔너리
 cache = {}
