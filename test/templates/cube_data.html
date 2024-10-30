@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Data Retrieval</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h2>Get Cube Data</h2>
+    <form id="cubeForm">
+        <label for="api_key">API Key:</label>
+        <input type="text" id="api_key" name="api_key" required><br><br>
+        <button type="button" onclick="submitForm()">Get Cube Data</button>
+    </form>
+
+    <div id="result"></div> <!-- 결과를 표시할 영역 -->
+
+    <script>
+        function submitForm() {
+            const apiKey = $("#api_key").val();
+
+            $.ajax({
+                type: "POST",
+                url: "/get_cube_data",
+                data: { api_key: apiKey },
+                success: function(response) {
+                    $("#result").html(response);
+                },
+                error: function(xhr) {
+                    $("#result").html(`<p style="color:red;">Error: ${xhr.responseText || 'An error occurred'}</p>`);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
