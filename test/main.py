@@ -1,6 +1,7 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_file
 import asyncio
 import maplestory_API.enforce_Data.async_cube_data as async_cube_data
+import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 
 app = Flask(__name__)
 
@@ -26,9 +27,23 @@ def get_cube_data():
         <p>Black Cube Count: {cnt_black}</p>
         <p>Additional Cube Count: {cnt_editional}</p>
         <p>White Additional Cube Count: {cnt_white_editional}</p>
+        <a href="/download_cube_data?api_key={api_key}" download>Download Cube Data as JSON</a>
         """
+
     except Exception as e:
         # 예외 발생 시 에러 메시지 반환
+        return f"An error occurred: {e}", 500
+
+@app.route('/download_cube_data', methods=['GET'])
+def download_cube_data():
+    api_key = request.args.get('api_key')
+    if not api_key:
+        return "API key is required.", 400
+
+    try:
+        # 파일 전송
+        return send_file('D:\Project\python\Character_Data_json\maplestory_api_cube_data.json', as_attachment=True)
+    except Exception as e:
         return f"An error occurred: {e}", 500
 
 if __name__ == '__main__':
