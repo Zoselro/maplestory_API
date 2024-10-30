@@ -72,7 +72,7 @@ async def get_cube_list(api_key, date_value=datetime(2022, 11, 25), end_date=dat
                     if cube_data['cube_type'] == '레드 큐브':
                         cube_list.append(cube_data)
                         cnt_red += 1
-                    elif cube_data['cube_type'] == '블랙 큐브':
+                    elif cube_data['cube_type'] in ['블랙 큐브', '카르마 블랙 큐브']:
                         cube_list.append(cube_data)
                         cnt_black += 1
                     elif cube_data['cube_type'] in ['카르마 화이트 에디셔널 큐브', '화이트 에디셔널 큐브']:
