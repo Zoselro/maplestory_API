@@ -28,7 +28,7 @@ ocid = Character_ocid.character_ocid(character_nickname, Character_utility.heade
 main_Character_nickname = Main_Character_Serach.Union_Character_list(api_key, ocid, end_date.strftime('%Y-%m-%d'))
 character_stat = Character_Stat.get_character_stat(character_name, api_key, end_date.strftime('%Y-%m-%d'))
 character_list = Character_list_data.get_character_list(api_key)
-cube_all_data, cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
+cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
 
 if ocid is None:
     print("ocid is None")

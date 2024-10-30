@@ -18,7 +18,7 @@ def get_cube_data():
 
     try:
         # 큐브 데이터 조회
-        cube_all_data, cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
+        cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
 
         # 결과를 HTML 형식으로 반환
         return f"""
@@ -27,7 +27,10 @@ def get_cube_data():
         <p>Black Cube Count: {cnt_black}</p>
         <p>Additional Cube Count: {cnt_editional}</p>
         <p>White Additional Cube Count: {cnt_white_editional}</p>
-        <a href="/download_cube_data?api_key={api_key}" download>Download Cube Data as JSON</a>
+        <form action="/download_cube_data" method="get">
+            <input type="hidden" name="api_key" value="{api_key}">
+            <input type="submit" value="Download Cube Data as JSON">
+        </form>
         """
 
     except Exception as e:

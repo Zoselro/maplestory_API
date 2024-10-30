@@ -85,4 +85,4 @@ async def get_cube_list(api_key, date_value=datetime(2022, 11, 25), end_date=dat
     # JSON 파일로 저장
     Character_utility.file_mode(file_path, cube_list, 'w')
     
-    return cube_list, cnt_red, cnt_black, cnt_editional, cnt_white_editional
+    return cnt_red, cnt_black, cnt_editional, cnt_white_editional
