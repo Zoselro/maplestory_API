@@ -17,7 +17,7 @@ def get_cube_data():
         return "API key는 ASCII 문자만 허용됩니다.", 400
     
     validation_api_key = Character_list_data.get_character_list(api_key)
-    print("Validation : ",validation_api_key) # 캐릭터 목록 조회
+    #print("Validation : ",validation_api_key) # 캐릭터 목록 조회
     
     if not api_key:
         return "API key is required.", 400  # 오류 발생 시 메시지 반환
