@@ -28,16 +28,16 @@ ocid = Character_ocid.character_ocid(character_nickname, Character_utility.heade
 main_Character_nickname = Main_Character_Serach.Union_Character_list(api_key, ocid, end_date.strftime('%Y-%m-%d'))
 character_stat = Character_Stat.get_character_stat(character_name, api_key, end_date.strftime('%Y-%m-%d'))
 character_list = Character_list_data.get_character_list(api_key)
-cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
-
+#cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
 if ocid is None:
     print("ocid is None")
     sys.exit()
 try:
-    max_dojang_floor, max_theseed_floor = asyncio.run(fetch_dojang_theseed_ranking_data.fetch_all_data(world_name, ocid, page, api_key, start_date, end_date, difficulty, job))
-    print(f"{character_name} 의 가장 높은 무릉 층수: {max_dojang_floor}")
-    print(f"{character_name} 의 가장 높은 더시드 층수: {max_theseed_floor}")
-    print('큐브 돌린 횟수는 ','레드 : ' ,cnt_red,'블랙 : ' ,cnt_black,'에디셔널 : ' ,cnt_editional,'화에큐 : ' ,cnt_white_editional)
+    print()
+    #max_dojang_floor, max_theseed_floor = asyncio.run(fetch_dojang_theseed_ranking_data.fetch_all_data(world_name, ocid, page, api_key, start_date, end_date, difficulty, job))
+    #print(f"{character_name} 의 가장 높은 무릉 층수: {max_dojang_floor}")
+    #print(f"{character_name} 의 가장 높은 더시드 층수: {max_theseed_floor}")
+    #print('큐브 돌린 횟수는 ','레드 : ' ,cnt_red,'블랙 : ' ,cnt_black,'에디셔널 : ' ,cnt_editional,'화에큐 : ' ,cnt_white_editional)
 except Exception as e:
     print(f"An error occurred : {e}")
 finally:

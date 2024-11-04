@@ -29,14 +29,14 @@ async def fetch_cube_data(session, api_key, date, retries=5, backoff_factor=1):
             elif response.status == 429:
                 # Too Many Requests, 일정 시간 후에 다시 시도
                 wait_time = backoff_factor * (2 ** attempt)  # 지수 백오프
-                print(f"dojang is Rate limit exceeded. Waiting for {wait_time} seconds before retrying...")
+                print(f"cube is Rate limit exceeded. Waiting for {wait_time} seconds before retrying...")
                 await asyncio.sleep(wait_time)
             elif response.status == 400:
-                print("dojang is Bad Request: Check the request parameters.")
+                print("cube is Bad Request: Check the request parameters.")
             elif response.status == 403:
-                print("dojang is Forbidden: Access is denied.")
+                print("cube is Forbidden: Access is denied.")
             elif response.status == 500:
-                print("dojang is Internal Server Error: Something went wrong on the server.")
+                print("cube is Internal Server Error: Something went wrong on the server.")
             else:
                 # 다른 에러 처리
                 print(f"Error {response.status}: {await response.text()}")

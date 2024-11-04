@@ -1,6 +1,5 @@
 import requests
 from datetime import datetime, timedelta
-import json
 import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 
 file_path = r'D:\Project\python\Character_Data_json\maplestory_api_Main_character_Search.json'
@@ -15,4 +14,7 @@ def Union_Character_list(api_key, ocid, date_value):
     Character_utility.file_mode(file_path, response.json(), 'w+')
     data = response.json()
     
-    return data
+    if response.status_code == 200:
+        return data
+    else:
+        return None

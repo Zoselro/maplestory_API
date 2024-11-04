@@ -13,4 +13,7 @@ def get_character_stat(characterName, api_key, date_value):
     response = requests.get(urlString, headers = headers, timeout=30)
     
     Character_utility.file_mode(file_path, response.json(), 'w+')
-    return response.json()
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return None

@@ -14,4 +14,7 @@ def character_ocid(character_name,headers):
         
     Character_utility.file_mode(file_path, response.json(), 'w+')
     
-    return ocid
+    if response.status_code == 200:
+        return ocid
+    else:
+        return None

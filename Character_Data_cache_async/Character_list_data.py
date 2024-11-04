@@ -5,9 +5,21 @@ import maplestory_API.Character_Data_cache_async.Character_utility as Character_
 file_path = r'D:\Project\python\Character_Data_json\maplestory_api_Character_list.json'
 def get_character_list(api_key):
     headers = Character_utility.headers_data(api_key)
-
     urlString = f"https://open.api.nexon.com/maplestory/v1/character/list?x-nxopen-api-key={api_key}"
     response = requests.get(urlString, headers = headers, timeout=30)
+    max_level = 0
     
     Character_utility.file_mode(file_path, response.json(), 'w+')
-    return response.json()
+    
+    for data in response.json()['account_list']:
+        for data_character_list in data['character_list']:
+            if data_character_list['character_level'] > max_level:
+                max_level = data_character_list['character_level']
+    
+    
+    
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        None
