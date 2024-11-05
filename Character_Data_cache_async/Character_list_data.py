@@ -24,7 +24,6 @@ def get_character_list(api_key):
                 if data_character_world['world_name'] == world_name:
                     character_list.append(data_character_world) # 리스트로 추출
         
-        
         Character_utility.file_mode(file_path, character_list, 'w+')
         return character_list
     else:

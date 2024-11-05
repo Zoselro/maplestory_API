@@ -1,6 +1,9 @@
+import sys
+sys.path.append("D:/Project/python/API_Project")
+
 import requests
 import json
-import API_Project.maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
+import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 from datetime import datetime, timedelta
 
 file_path = r'D:\Project\python\Character_Data_json\maplestory_api_cube_data.json'

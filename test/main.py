@@ -35,7 +35,6 @@ def get_cube_data():
             <p>Black Cube Count: {cnt_black}</p>
             <p>Additional Cube Count: {cnt_editional}</p>
             <p>White Additional Cube Count: {cnt_white_editional}</p>
-            <p>{validation_api_key}</p>
             <form action="/download_cube_data" method="get">
                 <input type="hidden" name="api_key" value="{api_key}">
                 <input type="submit" value="Download Cube Data as JSON">

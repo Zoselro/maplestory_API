@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Get Cube Data</h2>
-    <form id="cubeForm">
+    <form id="cubeForm" onsubmit="submitForm(); return false;">
         <label for="api_key">API Key:</label>
         <input type="text" id="api_key" name="api_key" required><br><br>
         <button type="button" onclick="submitForm()">Get Cube Data</button>
