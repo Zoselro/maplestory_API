@@ -3,6 +3,7 @@ import asyncio
 import maplestory_API.enforce_Data.async_cube_data as async_cube_data
 import maplestory_API.Character_Data_cache_async.Character_utility as Character_utility
 import maplestory_API.Character_Data_cache_async.Character_list_data as Character_list_data
+import maplestory_API.Character_Data_cache_async.fetch_dojang_theseed_ranking_data as fetch_dojang_theseed_ranking_data
 app = Flask(__name__)
 
 @app.route('/')
@@ -27,7 +28,8 @@ def get_cube_data():
         try:
             # 큐브 데이터 조회
             cnt_red, cnt_black, cnt_editional, cnt_white_editional = asyncio.run(async_cube_data.get_cube_list(api_key))
-
+            # 무릉도장 데이터 조회
+            #max_dojang_floor, max_theseed_floor = fetch_dojang_theseed_ranking_data.fetch_all_data(world_name, ocid, page_num, api_key, start_date, end_date, difficulty, job)
             # 결과를 HTML 형식으로 반환
             return f"""
             <h3>Cube Data Results:</h3>
