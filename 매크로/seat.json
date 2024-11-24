@@ -1,0 +1,2858 @@
+{
+    "1544410469": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "5열",
+            "6번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 306.597,
+                "y": 305.125
+            },
+            "nw": {
+                "x": 316.597,
+                "y": 315.125
+            },
+            "se": {
+                "x": 306.597,
+                "y": 315.125
+            },
+            "sw": {
+                "x": 316.597,
+                "y": 305.125
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834271,
+        "logicalSeatId": 1544410469,
+        "mapInfo": "1층 A구역 5열 6번",
+        "orderNum": 144,
+        "position": {
+            "x": 311.597,
+            "y": 310.125
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00005열00006번",
+        "waitingLinkedId": null
+    },
+    "1544410470": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "5열",
+            "7번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 320.544,
+                "y": 306.345
+            },
+            "nw": {
+                "x": 330.544,
+                "y": 316.345
+            },
+            "se": {
+                "x": 320.544,
+                "y": 316.345
+            },
+            "sw": {
+                "x": 330.544,
+                "y": 306.345
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834271,
+        "logicalSeatId": 1544410470,
+        "mapInfo": "1층 A구역 5열 7번",
+        "orderNum": 145,
+        "position": {
+            "x": 325.544,
+            "y": 311.345
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00005열00007번",
+        "waitingLinkedId": null
+    },
+    "1544410515": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "1번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 370,
+                "y": 263
+            },
+            "nw": {
+                "x": 380,
+                "y": 273
+            },
+            "se": {
+                "x": 370,
+                "y": 273
+            },
+            "sw": {
+                "x": 380,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410515,
+        "mapInfo": "1층 B구역 2열 1번",
+        "orderNum": 60,
+        "position": {
+            "x": 375,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00001번",
+        "waitingLinkedId": null
+    },
+    "1544410516": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "2번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 384,
+                "y": 263
+            },
+            "nw": {
+                "x": 394,
+                "y": 273
+            },
+            "se": {
+                "x": 384,
+                "y": 273
+            },
+            "sw": {
+                "x": 394,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410516,
+        "mapInfo": "1층 B구역 2열 2번",
+        "orderNum": 61,
+        "position": {
+            "x": 389,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00002번",
+        "waitingLinkedId": null
+    },
+    "1544410517": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "3번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 398,
+                "y": 263
+            },
+            "nw": {
+                "x": 408,
+                "y": 273
+            },
+            "se": {
+                "x": 398,
+                "y": 273
+            },
+            "sw": {
+                "x": 408,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410517,
+        "mapInfo": "1층 B구역 2열 3번",
+        "orderNum": 62,
+        "position": {
+            "x": 403,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00003번",
+        "waitingLinkedId": null
+    },
+    "1544410518": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "4번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 412,
+                "y": 263
+            },
+            "nw": {
+                "x": 422,
+                "y": 273
+            },
+            "se": {
+                "x": 412,
+                "y": 273
+            },
+            "sw": {
+                "x": 422,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410518,
+        "mapInfo": "1층 B구역 2열 4번",
+        "orderNum": 63,
+        "position": {
+            "x": 417,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00004번",
+        "waitingLinkedId": null
+    },
+    "1544410519": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "5번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 426,
+                "y": 263
+            },
+            "nw": {
+                "x": 436,
+                "y": 273
+            },
+            "se": {
+                "x": 426,
+                "y": 273
+            },
+            "sw": {
+                "x": 436,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410519,
+        "mapInfo": "1층 B구역 2열 5번",
+        "orderNum": 64,
+        "position": {
+            "x": 431,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00005번",
+        "waitingLinkedId": null
+    },
+    "1544410520": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "6번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 440,
+                "y": 263
+            },
+            "nw": {
+                "x": 450,
+                "y": 273
+            },
+            "se": {
+                "x": 440,
+                "y": 273
+            },
+            "sw": {
+                "x": 450,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410520,
+        "mapInfo": "1층 B구역 2열 6번",
+        "orderNum": 65,
+        "position": {
+            "x": 445,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00006번",
+        "waitingLinkedId": null
+    },
+    "1544410521": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "7번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 454,
+                "y": 263
+            },
+            "nw": {
+                "x": 464,
+                "y": 273
+            },
+            "se": {
+                "x": 454,
+                "y": 273
+            },
+            "sw": {
+                "x": 464,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410521,
+        "mapInfo": "1층 B구역 2열 7번",
+        "orderNum": 66,
+        "position": {
+            "x": 459,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00007번",
+        "waitingLinkedId": null
+    },
+    "1544410522": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "8번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 468,
+                "y": 263
+            },
+            "nw": {
+                "x": 478,
+                "y": 273
+            },
+            "se": {
+                "x": 468,
+                "y": 273
+            },
+            "sw": {
+                "x": 478,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410522,
+        "mapInfo": "1층 B구역 2열 8번",
+        "orderNum": 67,
+        "position": {
+            "x": 473,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00008번",
+        "waitingLinkedId": null
+    },
+    "1544410523": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "9번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 482,
+                "y": 263
+            },
+            "nw": {
+                "x": 492,
+                "y": 273
+            },
+            "se": {
+                "x": 482,
+                "y": 273
+            },
+            "sw": {
+                "x": 492,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410523,
+        "mapInfo": "1층 B구역 2열 9번",
+        "orderNum": 68,
+        "position": {
+            "x": 487,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00009번",
+        "waitingLinkedId": null
+    },
+    "1544410524": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "10번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 496,
+                "y": 263
+            },
+            "nw": {
+                "x": 506,
+                "y": 273
+            },
+            "se": {
+                "x": 496,
+                "y": 273
+            },
+            "sw": {
+                "x": 506,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410524,
+        "mapInfo": "1층 B구역 2열 10번",
+        "orderNum": 69,
+        "position": {
+            "x": 501,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00010번",
+        "waitingLinkedId": null
+    },
+    "1544410525": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "11번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 510,
+                "y": 263
+            },
+            "nw": {
+                "x": 520,
+                "y": 273
+            },
+            "se": {
+                "x": 510,
+                "y": 273
+            },
+            "sw": {
+                "x": 520,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410525,
+        "mapInfo": "1층 B구역 2열 11번",
+        "orderNum": 70,
+        "position": {
+            "x": 515,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00011번",
+        "waitingLinkedId": null
+    },
+    "1544410526": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "12번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 524,
+                "y": 263
+            },
+            "nw": {
+                "x": 534,
+                "y": 273
+            },
+            "se": {
+                "x": 524,
+                "y": 273
+            },
+            "sw": {
+                "x": 534,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410526,
+        "mapInfo": "1층 B구역 2열 12번",
+        "orderNum": 71,
+        "position": {
+            "x": 529,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00012번",
+        "waitingLinkedId": null
+    },
+    "1544410527": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "13번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 538,
+                "y": 263
+            },
+            "nw": {
+                "x": 548,
+                "y": 273
+            },
+            "se": {
+                "x": 538,
+                "y": 273
+            },
+            "sw": {
+                "x": 548,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410527,
+        "mapInfo": "1층 B구역 2열 13번",
+        "orderNum": 72,
+        "position": {
+            "x": 543,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00013번",
+        "waitingLinkedId": null
+    },
+    "1544410528": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "14번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 552,
+                "y": 263
+            },
+            "nw": {
+                "x": 562,
+                "y": 273
+            },
+            "se": {
+                "x": 552,
+                "y": 273
+            },
+            "sw": {
+                "x": 562,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410528,
+        "mapInfo": "1층 B구역 2열 14번",
+        "orderNum": 73,
+        "position": {
+            "x": 557,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00014번",
+        "waitingLinkedId": null
+    },
+    "1544410529": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "15번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 566,
+                "y": 263
+            },
+            "nw": {
+                "x": 576,
+                "y": 273
+            },
+            "se": {
+                "x": 566,
+                "y": 273
+            },
+            "sw": {
+                "x": 576,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410529,
+        "mapInfo": "1층 B구역 2열 15번",
+        "orderNum": 74,
+        "position": {
+            "x": 571,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00015번",
+        "waitingLinkedId": null
+    },
+    "1544410530": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "2열",
+            "16번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 580,
+                "y": 263
+            },
+            "nw": {
+                "x": 590,
+                "y": 273
+            },
+            "se": {
+                "x": 580,
+                "y": 273
+            },
+            "sw": {
+                "x": 590,
+                "y": 263
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834622,
+        "logicalSeatId": 1544410530,
+        "mapInfo": "1층 B구역 2열 16번",
+        "orderNum": 75,
+        "position": {
+            "x": 585,
+            "y": 268
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00002열00016번",
+        "waitingLinkedId": null
+    },
+    "1544410531": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "5번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 426,
+                "y": 347
+            },
+            "nw": {
+                "x": 436,
+                "y": 357
+            },
+            "se": {
+                "x": 426,
+                "y": 357
+            },
+            "sw": {
+                "x": 436,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410531,
+        "mapInfo": "1층 B구역 8열 5번",
+        "orderNum": 246,
+        "position": {
+            "x": 431,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00005번",
+        "waitingLinkedId": null
+    },
+    "1544410532": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "6번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 440,
+                "y": 347
+            },
+            "nw": {
+                "x": 450,
+                "y": 357
+            },
+            "se": {
+                "x": 440,
+                "y": 357
+            },
+            "sw": {
+                "x": 450,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410532,
+        "mapInfo": "1층 B구역 8열 6번",
+        "orderNum": 247,
+        "position": {
+            "x": 445,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00006번",
+        "waitingLinkedId": null
+    },
+    "1544410533": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "7번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 454,
+                "y": 347
+            },
+            "nw": {
+                "x": 464,
+                "y": 357
+            },
+            "se": {
+                "x": 454,
+                "y": 357
+            },
+            "sw": {
+                "x": 464,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410533,
+        "mapInfo": "1층 B구역 8열 7번",
+        "orderNum": 248,
+        "position": {
+            "x": 459,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00007번",
+        "waitingLinkedId": null
+    },
+    "1544410534": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "8번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 468,
+                "y": 347
+            },
+            "nw": {
+                "x": 478,
+                "y": 357
+            },
+            "se": {
+                "x": 468,
+                "y": 357
+            },
+            "sw": {
+                "x": 478,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410534,
+        "mapInfo": "1층 B구역 8열 8번",
+        "orderNum": 249,
+        "position": {
+            "x": 473,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00008번",
+        "waitingLinkedId": null
+    },
+    "1544410535": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "9번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 482,
+                "y": 347
+            },
+            "nw": {
+                "x": 492,
+                "y": 357
+            },
+            "se": {
+                "x": 482,
+                "y": 357
+            },
+            "sw": {
+                "x": 492,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410535,
+        "mapInfo": "1층 B구역 8열 9번",
+        "orderNum": 250,
+        "position": {
+            "x": 487,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00009번",
+        "waitingLinkedId": null
+    },
+    "1544410536": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "10번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 496,
+                "y": 347
+            },
+            "nw": {
+                "x": 506,
+                "y": 357
+            },
+            "se": {
+                "x": 496,
+                "y": 357
+            },
+            "sw": {
+                "x": 506,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410536,
+        "mapInfo": "1층 B구역 8열 10번",
+        "orderNum": 251,
+        "position": {
+            "x": 501,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00010번",
+        "waitingLinkedId": null
+    },
+    "1544410537": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "11번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 510,
+                "y": 347
+            },
+            "nw": {
+                "x": 520,
+                "y": 357
+            },
+            "se": {
+                "x": 510,
+                "y": 357
+            },
+            "sw": {
+                "x": 520,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410537,
+        "mapInfo": "1층 B구역 8열 11번",
+        "orderNum": 252,
+        "position": {
+            "x": 515,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00011번",
+        "waitingLinkedId": null
+    },
+    "1544410538": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "12번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 524,
+                "y": 347
+            },
+            "nw": {
+                "x": 534,
+                "y": 357
+            },
+            "se": {
+                "x": 524,
+                "y": 357
+            },
+            "sw": {
+                "x": 534,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410538,
+        "mapInfo": "1층 B구역 8열 12번",
+        "orderNum": 253,
+        "position": {
+            "x": 529,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00012번",
+        "waitingLinkedId": null
+    },
+    "1544410539": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "B구역",
+            "8열",
+            "13번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 538,
+                "y": 347
+            },
+            "nw": {
+                "x": 548,
+                "y": 357
+            },
+            "se": {
+                "x": 538,
+                "y": 357
+            },
+            "sw": {
+                "x": 548,
+                "y": 347
+            }
+        },
+        "gate": "",
+        "gradeId": 103776,
+        "groupId": 0,
+        "linkedId": 50834715,
+        "logicalSeatId": 1544410539,
+        "mapInfo": "1층 B구역 8열 13번",
+        "orderNum": 254,
+        "position": {
+            "x": 543,
+            "y": 352
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층B구역00008열00013번",
+        "waitingLinkedId": null
+    },
+    "1544410594": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 0,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "4열",
+            "2번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 250.787,
+                "y": 285.278
+            },
+            "nw": {
+                "x": 260.787,
+                "y": 295.278
+            },
+            "se": {
+                "x": 250.787,
+                "y": 295.278
+            },
+            "sw": {
+                "x": 260.787,
+                "y": 285.278
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834257,
+        "logicalSeatId": 1544410594,
+        "mapInfo": "1층 A구역 4열 2번",
+        "orderNum": 110,
+        "position": {
+            "x": 255.787,
+            "y": 290.278
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00004열00002번",
+        "waitingLinkedId": null
+    },
+    "1544410595": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "4열",
+            "3번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 264.733,
+                "y": 286.498
+            },
+            "nw": {
+                "x": 274.733,
+                "y": 296.498
+            },
+            "se": {
+                "x": 264.733,
+                "y": 296.498
+            },
+            "sw": {
+                "x": 274.733,
+                "y": 286.498
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834257,
+        "logicalSeatId": 1544410595,
+        "mapInfo": "1층 A구역 4열 3번",
+        "orderNum": 111,
+        "position": {
+            "x": 269.733,
+            "y": 291.498
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00004열00003번",
+        "waitingLinkedId": null
+    },
+    "1544410597": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "5열",
+            "3번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 264.757,
+                "y": 301.464
+            },
+            "nw": {
+                "x": 274.757,
+                "y": 311.464
+            },
+            "se": {
+                "x": 264.757,
+                "y": 311.464
+            },
+            "sw": {
+                "x": 274.757,
+                "y": 301.464
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834271,
+        "logicalSeatId": 1544410597,
+        "mapInfo": "1층 A구역 5열 3번",
+        "orderNum": 141,
+        "position": {
+            "x": 269.757,
+            "y": 306.464
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00005열00003번",
+        "waitingLinkedId": null
+    },
+    "1544410601": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 0,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "7열",
+            "2번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 223.289,
+                "y": 325.521
+            },
+            "nw": {
+                "x": 233.289,
+                "y": 335.521
+            },
+            "se": {
+                "x": 223.289,
+                "y": 335.521
+            },
+            "sw": {
+                "x": 233.289,
+                "y": 325.521
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834301,
+        "logicalSeatId": 1544410601,
+        "mapInfo": "1층 A구역 7열 2번",
+        "orderNum": 201,
+        "position": {
+            "x": 228.289,
+            "y": 330.521
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00007열00002번",
+        "waitingLinkedId": null
+    },
+    "1544410602": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 0,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "7열",
+            "3번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 237.235,
+                "y": 326.741
+            },
+            "nw": {
+                "x": 247.235,
+                "y": 336.741
+            },
+            "se": {
+                "x": 237.235,
+                "y": 336.741
+            },
+            "sw": {
+                "x": 247.235,
+                "y": 326.741
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834301,
+        "logicalSeatId": 1544410602,
+        "mapInfo": "1층 A구역 7열 3번",
+        "orderNum": 202,
+        "position": {
+            "x": 242.235,
+            "y": 331.741
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00007열00003번",
+        "waitingLinkedId": null
+    },
+    "1544410603": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "7열",
+            "4번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 251.182,
+                "y": 327.961
+            },
+            "nw": {
+                "x": 261.182,
+                "y": 337.961
+            },
+            "se": {
+                "x": 251.182,
+                "y": 337.961
+            },
+            "sw": {
+                "x": 261.182,
+                "y": 327.961
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834301,
+        "logicalSeatId": 1544410603,
+        "mapInfo": "1층 A구역 7열 4번",
+        "orderNum": 203,
+        "position": {
+            "x": 256.182,
+            "y": 332.961
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00007열00004번",
+        "waitingLinkedId": null
+    },
+    "1544410604": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 1
+        },
+        "attributes": [
+            "",
+            "",
+            "1층",
+            "A구역",
+            "7열",
+            "5번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 265.129,
+                "y": 329.181
+            },
+            "nw": {
+                "x": 275.129,
+                "y": 339.181
+            },
+            "se": {
+                "x": 265.129,
+                "y": 339.181
+            },
+            "sw": {
+                "x": 275.129,
+                "y": 329.181
+            }
+        },
+        "gate": "",
+        "gradeId": 103777,
+        "groupId": 0,
+        "linkedId": 50834301,
+        "logicalSeatId": 1544410604,
+        "mapInfo": "1층 A구역 7열 5번",
+        "orderNum": 204,
+        "position": {
+            "x": 270.129,
+            "y": 334.181
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60151,
+        "sortMapInfo": "00001층A구역00007열00005번",
+        "waitingLinkedId": null
+    },
+    "1544410730": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "1번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 377,
+                "y": 694
+            },
+            "nw": {
+                "x": 387,
+                "y": 704
+            },
+            "se": {
+                "x": 377,
+                "y": 704
+            },
+            "sw": {
+                "x": 387,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410730,
+        "mapInfo": "2층 B구역 6열 1번",
+        "orderNum": 957,
+        "position": {
+            "x": 382,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00001번",
+        "waitingLinkedId": null
+    },
+    "1544410731": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "2번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 391,
+                "y": 694
+            },
+            "nw": {
+                "x": 401,
+                "y": 704
+            },
+            "se": {
+                "x": 391,
+                "y": 704
+            },
+            "sw": {
+                "x": 401,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410731,
+        "mapInfo": "2층 B구역 6열 2번",
+        "orderNum": 958,
+        "position": {
+            "x": 396,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00002번",
+        "waitingLinkedId": null
+    },
+    "1544410732": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "3번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 405,
+                "y": 694
+            },
+            "nw": {
+                "x": 415,
+                "y": 704
+            },
+            "se": {
+                "x": 405,
+                "y": 704
+            },
+            "sw": {
+                "x": 415,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410732,
+        "mapInfo": "2층 B구역 6열 3번",
+        "orderNum": 959,
+        "position": {
+            "x": 410,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00003번",
+        "waitingLinkedId": null
+    },
+    "1544410733": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "4번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 419,
+                "y": 694
+            },
+            "nw": {
+                "x": 429,
+                "y": 704
+            },
+            "se": {
+                "x": 419,
+                "y": 704
+            },
+            "sw": {
+                "x": 429,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410733,
+        "mapInfo": "2층 B구역 6열 4번",
+        "orderNum": 960,
+        "position": {
+            "x": 424,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00004번",
+        "waitingLinkedId": null
+    },
+    "1544410734": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "5번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 433,
+                "y": 694
+            },
+            "nw": {
+                "x": 443,
+                "y": 704
+            },
+            "se": {
+                "x": 433,
+                "y": 704
+            },
+            "sw": {
+                "x": 443,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410734,
+        "mapInfo": "2층 B구역 6열 5번",
+        "orderNum": 961,
+        "position": {
+            "x": 438,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00005번",
+        "waitingLinkedId": null
+    },
+    "1544410735": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "6번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 447,
+                "y": 694
+            },
+            "nw": {
+                "x": 457,
+                "y": 704
+            },
+            "se": {
+                "x": 447,
+                "y": 704
+            },
+            "sw": {
+                "x": 457,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410735,
+        "mapInfo": "2층 B구역 6열 6번",
+        "orderNum": 962,
+        "position": {
+            "x": 452,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00006번",
+        "waitingLinkedId": null
+    },
+    "1544410736": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "7번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 461,
+                "y": 694
+            },
+            "nw": {
+                "x": 471,
+                "y": 704
+            },
+            "se": {
+                "x": 461,
+                "y": 704
+            },
+            "sw": {
+                "x": 471,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410736,
+        "mapInfo": "2층 B구역 6열 7번",
+        "orderNum": 963,
+        "position": {
+            "x": 466,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00007번",
+        "waitingLinkedId": null
+    },
+    "1544410737": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "8번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 475,
+                "y": 694
+            },
+            "nw": {
+                "x": 485,
+                "y": 704
+            },
+            "se": {
+                "x": 475,
+                "y": 704
+            },
+            "sw": {
+                "x": 485,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410737,
+        "mapInfo": "2층 B구역 6열 8번",
+        "orderNum": 964,
+        "position": {
+            "x": 480,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00008번",
+        "waitingLinkedId": null
+    },
+    "1544410738": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "9번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 489,
+                "y": 694
+            },
+            "nw": {
+                "x": 499,
+                "y": 704
+            },
+            "se": {
+                "x": 489,
+                "y": 704
+            },
+            "sw": {
+                "x": 499,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410738,
+        "mapInfo": "2층 B구역 6열 9번",
+        "orderNum": 965,
+        "position": {
+            "x": 494,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00009번",
+        "waitingLinkedId": null
+    },
+    "1544410739": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "10번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 503,
+                "y": 694
+            },
+            "nw": {
+                "x": 513,
+                "y": 704
+            },
+            "se": {
+                "x": 503,
+                "y": 704
+            },
+            "sw": {
+                "x": 513,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410739,
+        "mapInfo": "2층 B구역 6열 10번",
+        "orderNum": 966,
+        "position": {
+            "x": 508,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00010번",
+        "waitingLinkedId": null
+    },
+    "1544410740": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "11번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 517,
+                "y": 694
+            },
+            "nw": {
+                "x": 527,
+                "y": 704
+            },
+            "se": {
+                "x": 517,
+                "y": 704
+            },
+            "sw": {
+                "x": 527,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410740,
+        "mapInfo": "2층 B구역 6열 11번",
+        "orderNum": 967,
+        "position": {
+            "x": 522,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00011번",
+        "waitingLinkedId": null
+    },
+    "1544410741": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "12번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 531,
+                "y": 694
+            },
+            "nw": {
+                "x": 541,
+                "y": 704
+            },
+            "se": {
+                "x": 531,
+                "y": 704
+            },
+            "sw": {
+                "x": 541,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410741,
+        "mapInfo": "2층 B구역 6열 12번",
+        "orderNum": 968,
+        "position": {
+            "x": 536,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00012번",
+        "waitingLinkedId": null
+    },
+    "1544410742": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "13번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 545,
+                "y": 694
+            },
+            "nw": {
+                "x": 555,
+                "y": 704
+            },
+            "se": {
+                "x": 545,
+                "y": 704
+            },
+            "sw": {
+                "x": 555,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410742,
+        "mapInfo": "2층 B구역 6열 13번",
+        "orderNum": 969,
+        "position": {
+            "x": 550,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00013번",
+        "waitingLinkedId": null
+    },
+    "1544410743": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "14번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 559,
+                "y": 694
+            },
+            "nw": {
+                "x": 569,
+                "y": 704
+            },
+            "se": {
+                "x": 559,
+                "y": 704
+            },
+            "sw": {
+                "x": 569,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410743,
+        "mapInfo": "2층 B구역 6열 14번",
+        "orderNum": 970,
+        "position": {
+            "x": 564,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00014번",
+        "waitingLinkedId": null
+    },
+    "1544410744": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 2
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "6열",
+            "15번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 573,
+                "y": 694
+            },
+            "nw": {
+                "x": 583,
+                "y": 704
+            },
+            "se": {
+                "x": 573,
+                "y": 704
+            },
+            "sw": {
+                "x": 583,
+                "y": 694
+            }
+        },
+        "gate": "",
+        "gradeId": 103778,
+        "groupId": 0,
+        "linkedId": 50835144,
+        "logicalSeatId": 1544410744,
+        "mapInfo": "2층 B구역 6열 15번",
+        "orderNum": 971,
+        "position": {
+            "x": 578,
+            "y": 699
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00006열00015번",
+        "waitingLinkedId": null
+    },
+    "1544410763": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "5번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 433,
+                "y": 764
+            },
+            "nw": {
+                "x": 443,
+                "y": 774
+            },
+            "se": {
+                "x": 433,
+                "y": 774
+            },
+            "sw": {
+                "x": 443,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410763,
+        "mapInfo": "2층 B구역 10열 5번",
+        "orderNum": 1129,
+        "position": {
+            "x": 438,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00005번",
+        "waitingLinkedId": null
+    },
+    "1544410764": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "6번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 447,
+                "y": 764
+            },
+            "nw": {
+                "x": 457,
+                "y": 774
+            },
+            "se": {
+                "x": 447,
+                "y": 774
+            },
+            "sw": {
+                "x": 457,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410764,
+        "mapInfo": "2층 B구역 10열 6번",
+        "orderNum": 1130,
+        "position": {
+            "x": 452,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00006번",
+        "waitingLinkedId": null
+    },
+    "1544410765": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "7번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 461,
+                "y": 764
+            },
+            "nw": {
+                "x": 471,
+                "y": 774
+            },
+            "se": {
+                "x": 461,
+                "y": 774
+            },
+            "sw": {
+                "x": 471,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410765,
+        "mapInfo": "2층 B구역 10열 7번",
+        "orderNum": 1131,
+        "position": {
+            "x": 466,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00007번",
+        "waitingLinkedId": null
+    },
+    "1544410766": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "8번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 475,
+                "y": 764
+            },
+            "nw": {
+                "x": 485,
+                "y": 774
+            },
+            "se": {
+                "x": 475,
+                "y": 774
+            },
+            "sw": {
+                "x": 485,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410766,
+        "mapInfo": "2층 B구역 10열 8번",
+        "orderNum": 1132,
+        "position": {
+            "x": 480,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00008번",
+        "waitingLinkedId": null
+    },
+    "1544410767": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "9번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 489,
+                "y": 764
+            },
+            "nw": {
+                "x": 499,
+                "y": 774
+            },
+            "se": {
+                "x": 489,
+                "y": 774
+            },
+            "sw": {
+                "x": 499,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410767,
+        "mapInfo": "2층 B구역 10열 9번",
+        "orderNum": 1133,
+        "position": {
+            "x": 494,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00009번",
+        "waitingLinkedId": null
+    },
+    "1544410768": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 1,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "10번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 503,
+                "y": 764
+            },
+            "nw": {
+                "x": 513,
+                "y": 774
+            },
+            "se": {
+                "x": 503,
+                "y": 774
+            },
+            "sw": {
+                "x": 513,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410768,
+        "mapInfo": "2층 B구역 10열 10번",
+        "orderNum": 1134,
+        "position": {
+            "x": 508,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00010번",
+        "waitingLinkedId": null
+    },
+    "1544410769": {
+        "allotmentCode": "TKL",
+        "area": {
+            "virtualX": 2,
+            "virtualY": 3
+        },
+        "attributes": [
+            "",
+            "",
+            "2층",
+            "B구역",
+            "10열",
+            "11번"
+        ],
+        "blockId": null,
+        "colIdx": -1,
+        "cornerPoints": {
+            "ne": {
+                "x": 517,
+                "y": 764
+            },
+            "nw": {
+                "x": 527,
+                "y": 774
+            },
+            "se": {
+                "x": 517,
+                "y": 774
+            },
+            "sw": {
+                "x": 527,
+                "y": 764
+            }
+        },
+        "gate": "",
+        "gradeId": 103779,
+        "groupId": 0,
+        "linkedId": 50835312,
+        "logicalSeatId": 1544410769,
+        "mapInfo": "2층 B구역 10열 11번",
+        "orderNum": 1135,
+        "position": {
+            "x": 522,
+            "y": 769
+        },
+        "rowIdx": -1,
+        "seatCount": 1,
+        "sectionId": 60152,
+        "sortMapInfo": "00002층B구역00010열00011번",
+        "waitingLinkedId": null
+    }
+}
