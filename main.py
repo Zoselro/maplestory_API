@@ -13,9 +13,9 @@ import maplestory_API.Character_Data_cache_async.Character_list_data as Characte
 import maplestory_API.enforce_Data.async_cube_data as async_cube_data
 
 
-api_key = "live_454c2b1ff9fd60b4ab2ee265c9f236ba3dfb7f486da0b6c3f76999ce002754e2efe8d04e6d233bd35cf2fabdeb93fb0d"   
-character_name = "마스크XX맨4" #대 소문자를 구분지어야 된다.
-world_name = "리부트"
+api_key = "api_key"   
+character_name = "nickname" #대 소문자를 구분지어야 된다.
+world_name = "server_name"
 difficulty = "1"
 job = "팬텀-전체 전직"
 page = "1"
